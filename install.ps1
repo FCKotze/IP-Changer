@@ -1,5 +1,5 @@
 # Download the main script
-$url = "https://raw.githubusercontent.com/YourUsername/ip-changer/main/ip-changer.ps1"
+$url = "https://raw.githubusercontent.com/FCKotze/ip-changer/main/ip-changer.ps1"
 $outputPath = "$env:TEMP\ip-changer.ps1"
 
 Invoke-WebRequest -Uri $url -OutFile $outputPath
